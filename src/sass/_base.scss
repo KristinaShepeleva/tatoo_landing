@@ -1,0 +1,130 @@
+:root {
+    /* Colors */
+    --primary-text-color: #2B3640;
+    --second-text-color: #6F777D;
+
+    --accent-color: linear-gradient(180deg, #FA897B 0.46%, #FF1F33 100.39%);
+    --accent-button: linear-gradient(90.47deg, #FA897B -12.39%, #FF1F33 65.72%);
+    --whity-color: #ffffff;
+
+    --background-dark: #1F1F1F;
+    --black: #000000;
+
+
+    /* BG colors */
+    --background-color: #F1F5F8;
+
+    /* Others */
+    --transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    --duration: 250ms;
+
+    /* Fonts */
+    --main-font: "Inter", sans-serif;
+    --secondary-font: "Lora", serif;
+}
+
+/* reset */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin-top: 0;
+    margin-bottom: 0px;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+    color: currentColor;
+}
+
+ul,
+li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    -webkit-clip-path: inset(100%);
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+body {
+    font-family: var(--main-font);
+    color: var(--primary-text-color);
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 100vw;
+
+    
+
+    @media screen and (min-width: 480px) {
+           width: 480px;
+        }
+    
+        @media screen and (min-width: 768px) {
+            width: 768px;
+        }
+    
+        @media screen and (min-width: 1200px) {
+        width: 1176px;      
+} }
+
+.section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+    @media screen and (min-width: 1200px) {
+    padding-top: 90px;
+    padding-bottom: 90px;
+    }
+}
+
+
+.title-second {
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 1.27;
+
+
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+
+    @media screen and (min-width: 1200px) {
+    font-size: 40px;
+    }
+}
+
+.title-second--small-margin {
+    margin-bottom: 12px;
+}

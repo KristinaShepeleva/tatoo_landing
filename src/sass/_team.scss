@@ -1,0 +1,118 @@
+/* team */
+.team {
+    padding-bottom: 0;
+}
+.titlem__sub-text::before {
+    content: '';
+    display: block;
+    width: 141px;
+    height: 1px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #FF1F33;
+
+    margin-bottom: 12px;
+}
+
+.titlem__sub-text {
+    max-width: 610px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: var(--second-text-color);
+    margin-bottom: 60px;
+}
+
+.team__list {
+    @media screen and (min-width: 768px) {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    }
+
+    @media screen and (min-width: 1200px) {
+    gap: 30px;
+        }
+}
+
+.team__item {
+    max-width: 362px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+
+   @media screen and (min-width: 768px) {
+    flex-basis: calc((100% - 40px)/3);
+}
+
+    @media screen and (min-width: 1200px) {
+    overflow: hidden;
+    height: 581px;
+    flex-basis: calc((100% - 60px)/3);
+    }
+}
+
+.team__content {
+    width: 100%;
+    padding: 20px 20px;
+    //background: url(../img/bg-footer.png) var(--background-dark);
+
+    @media screen and (min-width: 1200px) {
+    overflow: hidden;
+    transform: translateY(0);
+    transition: transform ease-in-out 350ms;
+    }
+    
+}
+
+.team__content:hover {
+    transform: translateY(-76px);
+}
+
+.team__name {
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--whity-color);
+    margin-bottom: 8px;
+}
+
+.team__position {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: center;
+
+    color: var(--whity-color);
+    margin-bottom: 16px;
+}
+
+.team__text::before {
+    content: '';
+    display: block;
+    height: 1px;
+    width: 66px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 24px;
+    margin-bottom: 16px;
+    background-color: #FA897B;
+}
+
+.team__text {
+    text-align: center;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 1.5;
+    color: var(--whity-color);
+
+}
+
+.social__list--center {
+    justify-content: center;
+}
