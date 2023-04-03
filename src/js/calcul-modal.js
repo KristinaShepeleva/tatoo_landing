@@ -1,4 +1,3 @@
-
 const ESCAPE_BTN_CODE = 'Escape';
 
 const buttonRef = document.querySelector('[data-modal-open]');
@@ -33,4 +32,3 @@ function closeModalByEscape(e) {
     closeModal();
   }
 }
-
