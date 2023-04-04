@@ -55,11 +55,11 @@
     letter-spacing: 0.05em;
     color: var(--whity-color);
 
-    transform: font-weight var(--transition-timing-function) var(--duration);
+    transform: color var(--transition-timing-function) var(--duration);
 }
 
 .nav-list__link:hover {
-    font-weight: 500;
+    color: rgb(172, 170, 170);
 }
 
 .current::after {
