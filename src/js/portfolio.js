@@ -17,7 +17,7 @@ let simpleLightbox = new SimpleLightbox('.gallary__fotos a', {
 function createGallaryMarkup(image) {
     return image.map(({ preview, original, description }) => {
         return `
-       <li class="gallary__img"><a class="gallary__trum' href="${original}">
+       <li class="gallary__img"><a href="${original}">
        <img class="gallery__image" src="${preview}" alt="${description}"/>
        </a></li>
         `
@@ -29,7 +29,7 @@ galleryRef.addEventListener('click', onImageClick);
 function onImageClick(event) {
     event.preventDefault();
     
-    simpleLightbox.open();
+    //simpleLightbox.open();
 
   }
 

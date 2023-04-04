@@ -15,9 +15,9 @@ export const galleryItems = [
   },
   {
     preview:
-      'https://cdn.pixabay.com/photo/2015/02/10/16/25/tattoo-631216__340.jpg',
+      'https://cdn.pixabay.com/photo/2014/05/21/15/39/tattoo-349891__340.jpg',
     original:
-      'https://cdn.pixabay.com/photo/2015/02/10/16/25/tattoo-631216_960_720.jpg',
+      'https://cdn.pixabay.com/photo/2014/05/21/15/39/tattoo-349891_960_720.jpg',
     description: 'Aerial Beach View',
   },
   {
@@ -29,9 +29,9 @@ export const galleryItems = [
   },
   {
     preview:
-      'https://cdn.pixabay.com/photo/2015/02/10/16/24/tattoo-631206__340.jpg',
+      'https://cdn.pixabay.com/photo/2016/02/19/11/08/woman-1209592__340.jpg',
     original:
-      'https://cdn.pixabay.com/photo/2015/02/10/16/24/tattoo-631206_960_720.jpg',
+      'https://cdn.pixabay.com/photo/2016/02/19/11/08/woman-1209592_960_720.jpg',
     description: 'Alpine Mountains',
   },
   {
@@ -45,7 +45,7 @@ export const galleryItems = [
     preview:
       'https://cdn.pixabay.com/photo/2017/08/09/16/17/girl-2615028__340.jpg',
     original:
-      'https://pixabay.com/images/id-2615028/',
+      'https://cdn.pixabay.com/photo/2017/08/09/16/17/girl-2615028_960_720.jpg',
     description: 'Alpine Spring Meadows',
   },
   {
