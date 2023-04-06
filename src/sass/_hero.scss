@@ -92,11 +92,12 @@
     letter-spacing: 0.05em;
     text-transform: uppercase;
 
-    transform: background-image var(--transition-timing-function) var(--duration);
+    transform: background-image var(--transition-timing-function) var(--duration), box-shadow var(--transition-timing-function) var(--duration);
 }
 
 .btn:hover,
 .btn:focus,
 .btn:active {
     background-image: linear-gradient(90.47deg, #FC7160 -12.39%, #F30D21 65.72%);
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.25);
 }

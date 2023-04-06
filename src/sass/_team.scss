@@ -51,6 +51,12 @@
     height: 581px;
     flex-basis: calc((100% - 60px)/3);
     }
+
+    transition: box-shadow ease-in-out 350ms;
+}
+
+.team__item:hover {
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.25);
 }
 
 .team__content {
