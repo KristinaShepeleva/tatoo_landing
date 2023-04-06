@@ -1,13 +1,13 @@
 <section class="feedback section__feedback">
     <div class="container ">
         <p class="feedback__title">Do you want a tattoo?</p>
-        <form class="feedback__form" name="feedback">
+        <form class="feedback__form" name="feedback" autocomplete="off">
             <div class="feedback__wrap-input">
-                <label for=""><input class="feedback__input" type="text" name="name" placeholder="Name"></label>
+                <label for=""><input class="feedback__input feedback__input--name" type="text" name="name" autofocus placeholder="Name"></label>
 
-                <label for=""><input class="feedback__input" type="tel" name="phone" placeholder="Phone"></label>
+                <label for=""><input class="feedback__input feedback__input--tel" type="tel" name="phone" placeholder="Phone"></label>
             </div>
-            <textarea class="feedback__textarea" name="" id="" rows="3"
+            <textarea class="feedback__textarea" name="message" id="" rows="3"
                 placeholder="Tell us what do you want"></textarea>
             <button class="btn__second" type="submit">Sent</button>
         </form>

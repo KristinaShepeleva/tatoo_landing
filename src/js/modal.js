@@ -5,7 +5,7 @@ const buttonRef = document.querySelector('[data-modal-open]');
 const closeButtonRef = document.querySelector('[data-modal-close]');
 const modalRef = document.querySelector('[data-modal]');
 
-console.log(modalRef);
+//console.log(modalRef);
 
 buttonRef.addEventListener("click", openModal);
 closeButtonRef.addEventListener("click", closeModal);
