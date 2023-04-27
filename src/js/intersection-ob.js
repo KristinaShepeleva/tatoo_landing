@@ -1,6 +1,8 @@
 
 const boxes = document.querySelectorAll('.title-for-animate'); // элементы за которыми будет следить обсервер
 
+
+
 var options = {
   root: document.querySelector("#scrollArea"), // объект, который скроллится
   rootMargin: '0px',
@@ -14,7 +16,7 @@ var callback = function(entries, observer) {
      */
 
     if (entry.isIntersecting) {
-      entry.target.classList.add('animate')
+      entry.target.classList.add('scale-up-center')
     }
     // entry.isIntersecting ? entry.target.classList.add('animate') :
     //   entry.target.classList.remove('animate');
@@ -24,7 +26,6 @@ var callback = function(entries, observer) {
 const observer = new IntersectionObserver(callback, options);
 
 boxes.forEach((box) => observer.observe(box));
-
 
 
 

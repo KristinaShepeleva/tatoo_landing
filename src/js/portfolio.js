@@ -4,8 +4,6 @@ import { galleryMan } from './gallery-man';
 import SimpleLightbox from "simplelightbox";
 import "simplelightbox/dist/simple-lightbox.min.css";
 
-
-
 const galleryRef = document.querySelector('.gallary__fotos');
 const galleryWomanRef = document.querySelector('.gallary__menu-button--woman')
 const galleryManRef = document.querySelector('.gallary__menu-button--man')
@@ -33,9 +31,6 @@ galleryRef.addEventListener('click', onImageClick);
 
 function onImageClick(event) {
     event.preventDefault();
-    
-    //simpleLightbox.open();
-
   }
 
 galleryWomanRef.addEventListener('click', onWomanClick)
