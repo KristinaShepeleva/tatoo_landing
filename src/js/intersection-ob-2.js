@@ -1,4 +1,4 @@
-//const boxes = document.querySelectorAll('.title-for-animate'); // элементы за которыми будет следить обсервер
+ // элементы за которыми будет следить обсервер
 const advansts = document.querySelectorAll('.scale')
 
 
@@ -24,5 +24,5 @@ var callback = function(entries, observer) {
 
 const observer = new IntersectionObserver(callback, options);
 
-//boxes.forEach((box) => observer.observe(box));
+
 advansts.forEach((advanst) => observer.observe(advanst));
