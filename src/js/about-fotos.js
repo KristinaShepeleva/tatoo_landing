@@ -13,5 +13,4 @@ aboutGalleryRef.addEventListener('click', onImageClick);
 
 function onImageClick(event) {
     event.preventDefault();
-    simpleLightbox();
   }
