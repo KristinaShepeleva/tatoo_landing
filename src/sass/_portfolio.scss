@@ -11,7 +11,9 @@
 
 .gallary__menu .titlem__sub-text {
 font-size: 18px;
-    max-width: 540px;
+    max-width: 440px;
+    padding-left: 20px;
+    padding-right: 20px;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
@@ -48,8 +50,8 @@ font-size: 18px;
 
 .gallary__menu--man {
     background-image: url(../images/bg/gallary-for-man-mob.jpg);
-    
-    @media screen and (min-width: 768px) {
+
+    @media screen and (min-width: 480px) {
         background-image: url(../images/bg/gallary-for-man.jpg);
     }
     
