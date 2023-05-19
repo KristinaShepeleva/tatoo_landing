@@ -30,54 +30,19 @@ function createGallaryMarkup(image) {
     }).join('');
 };
 
-let thisPage = 1;
-let limit = 8;
-
-let list = document.querySelectorAll('.gallary__fotos .gallary__img');
-
 galleryRef.addEventListener('click', onImageClick);
 
 function onImageClick(event) {
     event.preventDefault();
   }
 
+let thisPage = 1;
+let limit = 8;
 
-galleryWomanRef.addEventListener('click', onWomanClick)
-
-function onWomanClick(ev) {
-    ev.preventDefault();
-      markup = createGallaryMarkup(galleryItems.filter(item => item.description.includes('girl')));
-    galleryRef.innerHTML = markup;
-    list = document.querySelectorAll('.gallary__fotos .gallary__img');
-    loadItem();
-    simpleLightbox.refresh()
-}
+let list = document.querySelectorAll('.gallary__fotos .gallary__img');
+let count = Math.ceil(list.length / limit);
 
 
-galleryManRef.addEventListener('click', onManClick)
-
-function onManClick(ev) {
-    ev.preventDefault();
-    markup = createGallaryMarkup(galleryItems.filter(item => item.description.includes('man')));
-    galleryRef.innerHTML = markup;
-    list = document.querySelectorAll('.gallary__fotos .gallary__img');
-    loadItem();
-    simpleLightbox.refresh();
-}
-
-allTatoo.addEventListener('click', onAllClick)
-
-function onAllClick(ev) {
-    ev.preventDefault();
-    markup = createGallaryMarkup(galleryItems);
-    galleryRef.innerHTML = markup;
-    list = document.querySelectorAll('.gallary__fotos .gallary__img');
-    loadItem();
-    simpleLightbox.refresh()
-}
-
-const count = Math.ceil(list.length / limit);
-   
 function loadItem(){
     let beginGet = limit * (thisPage - 1);
     let endGet = limit * thisPage - 1;
@@ -114,3 +79,23 @@ next.addEventListener("click", () => {
     next.setAttribute("disabled", true);
     }
 });
+
+
+
+
+
+
+// galleryWomanRef.addEventListener('click', onWomanClick)
+
+// function onWomanClick(ev) {
+//     ev.preventDefault();
+//     thisPage = 1;
+//       markup = createGallaryMarkup(galleryItems.filter(item => item.description.includes('girl')));
+//     galleryRef.innerHTML = markup;
+//     list = document.querySelectorAll('.gallary__fotos .gallary__img');
+//     count = Math.ceil(list.length / limit);
+//     loadItem();
+//     pageControls();
+//     simpleLightbox.refresh()
+// }
+
