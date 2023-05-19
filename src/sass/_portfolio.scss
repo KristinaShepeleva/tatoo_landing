@@ -47,7 +47,12 @@ font-size: 18px;
 // }
 
 .gallary__menu--man {
-    background-image: url(../images/bg/gallary-for-man.jpg);
+    background-image: url(../images/bg/gallary-for-man-mob.jpg);
+    
+    @media screen and (min-width: 768px) {
+        background-image: url(../images/bg/gallary-for-man.jpg);
+    }
+    
 }
 
 .gallary__menu-button {
