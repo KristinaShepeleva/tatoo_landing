@@ -114,6 +114,7 @@
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
+    margin-bottom: 30px;
 
     @media screen and (min-width: 768px) {
     flex-wrap: wrap;
@@ -157,5 +158,46 @@
     width: 100%;
     object-fit: cover;
     object-position: center;
-
 }
+
+
+.arrows {
+    background-color: white;
+    border: none;
+    padding: 6px;
+    
+}
+
+.arrows:hover {
+    background-color: #F1F5F8;
+    border-radius: 2px;
+}
+
+.icon-control {
+    fill: #40464b;
+}
+
+.arrows:disabled .icon-control {
+    fill: #93989c;
+}
+
+
+.icon-arrow {
+    background-color: #B192EF;
+}
+
+.listPage {
+    
+    text-align: center;
+    list-style: none;
+}
+
+.listPage li {
+    
+    display: inline-block;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+
+
