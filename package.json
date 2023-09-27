@@ -1,21 +1,21 @@
 {
-  "name": "smart-reading-cours",
+  "name": "tatoo_landing",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://KristinaShepeleva.github.io/smart-reading-cours",
+  "homepage": "https://KristinaShepeleva.github.io/tatoo_landing",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /smart-reading-cours/"
+    "build": "parcel build src/*.html --public-url /tatoo_landing/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/KristinaShepeleva/smart-reading-cours.git"
+    "url": "git+https://github.com/KristinaShepeleva/tatoo_landing.git"
   },
   "keywords": [],
   "author": "KristinaShepeleva <shepelevakristina52@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/KristinaShepeleva/smart-reading-cours/issues"
+    "url": "https://github.com/KristinaShepeleva/tatoo_landing/issues"
   },
   "dependencies": {
     "lodash.throttle": "^4.1.1",
